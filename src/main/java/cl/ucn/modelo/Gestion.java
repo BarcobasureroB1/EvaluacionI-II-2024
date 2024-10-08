@@ -5,7 +5,7 @@ public class Gestion {
     public Gestion(){
       
     }
-    public void eliminarEvento(){};
+    public void eliminarEventoDeAsistente(){};
 
     public void ingresarEvento(){};
 
