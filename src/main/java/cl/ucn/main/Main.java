@@ -2,6 +2,7 @@ package cl.ucn.main;
 
 import cl.ucn.modelo.Asistente;
 import cl.ucn.modelo.Evento;
+import cl.ucn.modelo.Facade;
 import jakarta.persistence.*;
 import com.jcabi.log.Logger;
 import org.apache.logging.log4j.LogManager;

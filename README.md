@@ -95,4 +95,21 @@ Buena suerte!
 
 ## Respuestas
 
-(comienze a escribir aquí sus respuestas, indicando sección y número de pregunta)
+Preguntas (parte 1):
+1)
+-Facade: Permite separar las funciones del programa por métodos para cada función específicada, facilitando el entendimiento para su utilización y posible modificación.
+
+-Singleton: Se utiliza para instanciar la base de datos e ingresar posteriormente a ella con el resto de métodos.
+
+2)
+-Facade: Cumple con la propiedad de Preferir composición a herencia, ya que se distribuye el funcionamiento principal del código en una sola clase dividida en métodos, mejorando además, la integridad conceptual.
+
+-Singleton: Cumple con la propiedad de Abierto/Cerrado, ya que no se modifica su funcionamiento interno, sólo la implementación que se decida usar con él.
+
+Preguntas (parte 2):
+1)Respuesta: ii. Es un patrón de diseño de comportamiento que define la estructura de un algoritmo en una clase base y permite que las subclases personalicen ciertos pasos sin cambiar la estructura general.
+
+Un ejemplo de esto sería un programa que simule la construcción de casas que tienen la misma estructura, pero con ciertas variantes. Como ejemplo se pueden hacer techos con distintos materiales, cambiando así la manera en la que se construyen, pero no la forma final en la que se implementa en la casa. Otro ejemplo sería la cantidad de ventanas, o las ubicaciones de éstas, ya que no cambian la estructura de la casa.
+
+2)En la imagen se muestra como 2 clases (A y B), acceden y modifican datos presentes en una base de datos.
+El problema principal es que esta estructura viola las propiedades de Ocultamiento de la información, Responsabilidad única y la integridad conceptual, ya que para lograr un manejo efectivo de la base de datos hace falta usar ambas clases en conjunto con la propia base de datos, lo que complica el entendimiento del programa y su implementación a futuro si se modifica el programa.
